@@ -29,6 +29,9 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
+.navbar-toggler-icon{
+    background-image: url(./img/625846fc39fbe53385840143_1\ \(3\).svg);
+ }
 .container-fluidimg{
     background-image: url(./img/644fab4da9dbd93a7dfae97b_e6d57714479874c665b36c7adee76b1d.svg);
     height:100%;
@@ -61,16 +64,25 @@
 
 
 }
+
+.container1{
+    display: flex;
+    justify-content: center;
+    
+}
+
 .container p{
     font-size: 20px;
      
-    color: rgb(224, 222, 222);
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 15px;
     padding: 0px 60px;
     margin: 0px 10px;
     z-index: 2;
-
+    width: 73%;
+    display: flex;
+    justify-content: center;
 
 
 }
@@ -138,13 +150,13 @@
     display: flex;
     flex-direction: row;
     
-  float: right;
+    float: right;
     
-     margin-top:-60px;
-     margin-right: -30%;
-     
-    z-index: 1;
-   
+    margin-top:-60px;
+    margin-right: -30%;
+    
+   z-index: 1;
+  
     height: 100%;
     width: 100%;
  }
